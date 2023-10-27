@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    padding: 2rem 2.5rem;
+    position: static;
+    top: 0;
+    z-index: 58;
+}
+/* logo */
+.logo {
+    flex: 1;
+}
+.user-logo {
+    height: 3rem;
+    width: 3rem;
+    color: var(--primary-yellow);
+}
+/* Menu */
+.mobile {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.menu-mobile {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--primary-yellow);
+}
+/* Navigation */
+.navigation {
+    display: none;
+    align-items: center;
+}
+.navigation-list {
+    display: flex;
+    align-items: center;
+    margin-right: 2.5rem;
+}
+.link-item {
+    list-style: none;
+}
+.highlight {
+    color: var(--primary-yellow);
+}
+.navigation-list > * + * {
+    margin-left: 2.5rem;
+}
+.link-name {
+    color: var(--secondary-white);
+    text-decoration: none;
+}
+.link-name:hover {
+    color: var(--primary-yellow);
+}
+.underline {
+    border-bottom-width: 0px;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(var(--primary-yellow), var(--primary-yellow));
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+.underline:hover {
+    background-size: 100% 2px;
+}
+/* Contact Button */
+.contact {
+    color: var(--primary-yellow);
+    text-decoration: none;
+    border: 1px solid var(--primary-yellow);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+.contact:hover {
+    color: #0a192f;
+    background-color: var(--primary-yellow);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+@media (min-width: 586px) {
+    .navigation {
+        display: flex;
+        align-items: center;}
+    .mobile {
+        display: none;
+    }
+}

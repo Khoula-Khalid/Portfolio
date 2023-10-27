@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="header.css"/>
+    <link rel="stylesheet" href="footer.css"/>
+    <link rel="stylesheet" href="interest.css"/>
+    <title>My Interests</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="#"><svg class="user-logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  </a>
+            </div>
+            <button class="mobile">
+                <svg class="menu-mobile" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                  </svg>              
+            </button>
+            <nav class="navigation">
+                <ol class="navigation-list">
+                    <li class="link-item">
+                        <a class="link-name underline" href="index.html">Home</a>
+                    </li>
+                    <li class="link-item">
+                        <a class="link-name underline" href="index.html#about-section">About</a>
+                    </li>
+                    <li class="link-item">
+                        <a class="link-name underline" href="interests.html">Interests</a>
+                    </li>
+                </ol>
+                <div>
+                    <a class="contact" href="index.html#contact-log">Contact Me!</a>
+                </div>
+            </nav>
+        </header>
+    <main>
+        <section id="interests" class="interests-section">
+            <h1 class="title"><span class="highlight">My</span> Interests</h1>
+            <div class="line"></div>
+            <p class="subtitle">Life is a journey with our interests that act as guiding stars and shape our paths. My diverse interests reflect my curiosity about the world and desire to learn, share, and contribute to the world. Here below I stated my ineterests and how they are improving me.</p>
+
+                <div class="interest-cards">
+                    <div class="interest-card">
+                        <div class="project-container">
+                            <h3 class="project-title highlight">Reading Holy Book</h3>
+                            <p class="project-description">My study of holy books is one of the pillars of my life. These books contain timeless knowledge and provide direction on matters of morality, spirituality, and the search for a life that is worthwhile. I like the verses' rich ideologies and lessons and find comfort and inspiration in them. These holy texts serve as a foundation for my religion and a source of moral and spiritual enlightenment.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="data:image/jpeg;base64,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" alt="no image">
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <div class="project-container">
+                            <h3 class="project-title highlight">Watching Documentaries</h3>
+                            <p class="project-description">My doorway into the many complexities of the world is through documentaries. They offer an engaging and educational experience on a variety of topics, including history and religion. I learned more about the specifics of many belief systems and the lessons that history has to teach through these visual trips. Documentaries have the ability to disprove assumptions, widen perspectives, and inspire thoughtful reflection.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://www.adorama.com/alc/wp-content/uploads/2021/04/cinematographer-filming-documentary-feature-825x465.jpg" alt="no image">
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <div class="project-container">
+                            <h3 class="project-title highlight">Volunteering for My Community</h3>
+                            <p class="project-description">I think it's important to give back to the community that has supported me. Through volunteering, I can establish relationships with people, learn about their needs, and actively help to meet those needs. My community service activities provide a concrete method to have a beneficial impact, whether I'm planning educational events, or helping the less fortunate.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://www.worldendeavors.com/wp-content/uploads/2023/07/Childcarefeatured31.jpg" alt="no image">
+                        </div>
+                    </div>
+                  
+                    <div class="interest-card">
+                        <div class="project-container">
+                            <h3 class="project-title highlight">Podcasts and Staying Informed</h3>
+                            <p class="project-description">It is necessary to stay up to date on technical breakthroughs in the quickly changing digital age. Podcasts are a great way to learn about technologies, businesses, and the economy.  I stay informed about new trends, technologies, and how they could affect our lives thanks to these podcasts. </p>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2023/01/podcast-tiktok-2931546.jpg?tf=3840x" alt="no image">
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <div class="project-container">
+                            <h3 class="project-title highlight">Dramas Addressing Social Issues</h3>
+                            <p class="project-description">I don't watch many dramas but when I do I watch dramas that address the major social issues that fascinate me. They provide a perspective on how issues like injustice, inequality, and poverty influence people's lives. I am reminded of the difficulties facing humanity, the value of empathy, and the necessity of societal change by seeing these narratives. These dramas encourage me to change society and changes first start from you.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://pakistanijournal.com/wp-content/uploads/2023/05/nauroz-2.jpg" alt="no image">
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <div class="project-container">
+                            <h3 class="project-title highlight">Biographical Content and History</h3>
+                            <p class="project-description"> A rich source of inspiration is the biographies of those who have made a lasting impression in history or achieved things. Their hardships, victories, and experiences demonstrate how strong people can be. I became inspired by them to face my challenges.
+                            History is a collection of historical lessons and a repository of human experiences. I think one should learn about the history of the place he was born in to know what the country's past is. how the things happen? and what is the reality? You will learn so many elements of it. </p>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/108011-gxepwpurpe-1544684680.jpg" alt="no image">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+<footer class="footer-container">
+    <ul class="footer-socials">
+        <li class="social-items">
+            <a class="social-link" href="https://wa.me/+60182787295" target="_blank">
+                <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path>
+                    </svg>
+            </a>
+        </li>
+        <li class="social-items">
+            <a class="social-link" href="https://www.instagram.com/khoulabajwah/" target="_blank">
+                <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+            </a>
+        </li>
+        <li class="social-items">
+            <a class="social-link" href="https://www.linkedin.com/in/khoula-khalid-1a5848231/" target="_blank">
+                <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+        </li>
+    </ul>
+    <div><small class="small">Designed & Built up by Khoula Khalid</small></div>
+</footer>
+</div>
+</body>
+</html>

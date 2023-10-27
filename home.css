@@ -1,0 +1,82 @@
+.home-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 5rem;
+    margin-left: 0rem;
+}
+.home-title{
+    color: var(--secondary-white);
+    padding-bottom: 1.2rem;
+    font-size: 17px;
+}
+.home-name{
+    color: var(--primary-yellow);
+    font-size: var(--text-3xl);
+    font-weight: 500;
+}
+.home-subtitle{
+    margin-top: 0.5rem;
+    font-size: var(--text-xl);
+    font-weight: 400;
+}
+.home-description{
+    margin-top: 1.5rem;
+    font-size: var(--text-lg);
+    width: 35rem;
+}
+.home-About{
+    margin-top: 3rem;
+}
+.abu-link{
+    text-decoration: none;
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+}
+.abu-link:hover{
+    color: #0a192f;
+    background-color: var(--primary-yellow);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
+/* Styles for the arrow */
+.arrow {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: var(--primary-yellow);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.3rem;
+    transition: transform 0.5s ease;
+}
+/* Hover effect for the arrow */
+.abu-link:hover .arrow {
+    transform: translateX(5px); /* Move the arrow 5px to the right on hover */
+    color: #0a192f;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 600ms;
+}
+
+@media (min-width: 640px) {
+    .home-name {
+        font-size: var(--text-5xl)
+    }
+
+    .home-subtitle {
+        font-size: var(--text-4xl)
+    }
+}
+
+@media (min-width: 768px) {
+    .home-name {
+        font-size: var(--text-7xl)
+    }
+
+    .home-subtitle {
+        font-size: var(--text-5xl)
+    }
+}

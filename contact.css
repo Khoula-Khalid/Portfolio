@@ -1,0 +1,59 @@
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+}
+.contact-content > h3{
+    font-size: var(--text-4xl);
+    font-weight: 600;
+    color: var(--primary-yellow);
+    margin-bottom: 1.5rem;
+}
+.contact-content > p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--primary-white);
+    margin-right: -4rem;
+    font-size: var(--text-lg);
+}
+.contact-cta {
+    margin-top: 4rem;
+}
+.contact-cta > a {
+    text-decoration: none;
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+    border-radius: 0.5rem;
+    padding: 0.9rem 1.3rem;
+}
+.contact-cta > a:hover{
+    color: #0a192f;
+    background-color: var(--primary-yellow);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+.mail{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: var(--primary-yellow);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.4rem;
+    transition: transform 0.5s ease;
+}
+.contact-cta > a:hover .mail{
+    color: #0a192f;
+}
+@media (min-width: 640px) {
+    .contact-content > h3 {
+        font-size: var(--text-5xl)
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-content > h3 {
+        font-size: var(--text-7xl)
+    }
+}

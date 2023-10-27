@@ -1,0 +1,32 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    height: 20vh;
+}
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer-socials > * + * {
+    margin-left: 2.5rem;
+}
+.social-items{
+    list-style-type: none;
+}
+.social-link{
+    color: var(--primary-white);
+}
+.social-link:hover {
+    color: var(--primary-yellow);
+}
+.social-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+}
+.small{
+    color: var(--primary-yellow);
+}
